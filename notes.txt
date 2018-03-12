@@ -1,0 +1,3 @@
+docker run -it --rm --entrypoint /bin/sh -v "$(pwd)/certbot-example-plugins:/tmp/certbot-example-plugins"  certbot/certbot:v0.22.0
+certbot plugins
+pip install -e /tmp/certbot-example-plugins
