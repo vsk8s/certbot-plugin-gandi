@@ -1,4 +1,0 @@
-docker run -it --rm --entrypoint /bin/sh -v "$(pwd)/plugin:/tmp/plugin" certbot/certbot:v0.22.0
-certbot plugins
-pip install -e /tmp/plugin
-certbot certonly --dry-run -a certbot-plugin-gandi:dns --certbot-plugin-gandi:dns-credentials /tmp/creds.ini -d domain.com 
