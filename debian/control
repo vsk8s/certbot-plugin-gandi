@@ -9,5 +9,5 @@ Vcs-Browser: https://github.com/vsk8s/certbot-plugin-gandi
 
 Package: python3-certbot-gandi
 Architecture: any
-Depends: ${python3:Depends}, ${misc:Depends}, certbot, python3-zope.interface, python3-requests
+Depends: ${python3:Depends}, ${misc:Depends}, certbot, python3-zope.interface, python3-requests, python3-urllib3
 Description: Gandi DNS API plugin for certbot
