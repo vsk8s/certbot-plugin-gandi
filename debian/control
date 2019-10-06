@@ -1,0 +1,13 @@
+Source: python3-certbot-gandi
+Section: utils
+Priority: optional
+Maintainer: Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>
+Build-Depends: debhelper (>=9), python3-certbot, python3, python3-setuptools, python3-zope.interface, python3-requests
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/vsk8s/certbot-plugin-gandi.git
+Vcs-Browser: https://github.com/vsk8s/certbot-plugin-gandi
+
+Package: python3-certbot-gandi
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, certbot, python3-zope.interface, python3-requests
+Description: Gandi DNS API plugin for certbot

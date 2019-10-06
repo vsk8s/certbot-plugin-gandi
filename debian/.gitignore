@@ -1,0 +1,10 @@
+autoreconf.after
+autoreconf.before
+*.log
+*.substvars
+*.debhelper
+tmp
+python3-certbot-gandi
+.debhelper
+debhelper-build-stamp
+files
